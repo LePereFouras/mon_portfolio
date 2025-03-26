@@ -700,3 +700,17 @@ img {
   background-color: #0056b3; /* Couleur d'accent sur hover */
 }
 
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement si hauteur définie */
+  width: 100%; /* Prend toute la largeur */
+}
+
+iframe {
+  border: none;
+  width: 80%; /* Ajuste la largeur comme tu veux */
+  max-width: 800px; /* Empêche qu'il soit trop large */
+  height: 200px; /* Ajuste la hauteur */
+}
+
