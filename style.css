@@ -739,3 +739,21 @@ iframe {
   letter-spacing: 0.5px;
 }
 
+.styled-link {
+  display: inline-block;
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.styled-link:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+  transform: translateY(-2px) scale(1.04);
+  color: #fff;
+}
