@@ -714,3 +714,28 @@ iframe {
   height: 200px; /* Ajuste la hauteur */
 }
 
+.sur_container button {
+  background-color: #5b728a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin: 6px 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.sur_container button:hover {
+  background-color: #06407e;
+  transform: translateY(-2px) scale(1.04);
+}
+
+.sur_container button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
