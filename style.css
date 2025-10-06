@@ -4,9 +4,9 @@
   --header-height: 3rem;
   --font-semi: 600;
 
-  --first-color: #03557d;   /* bleu électrique */
-  --second-color: #0d0d0d;  /* noir profond */
-  --third-color: #ffffff;   /* blanc pur */
+  --first-color: #03557d;
+  --second-color: #0d0d0d;
+  --third-color: #ffffff;
 
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -727,15 +727,15 @@ img {
 
 .iframe-container {
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement si hauteur définie */
-  width: 100%; /* Prend toute la largeur */
+  justify-content: center; /* Centre horizontalement lbail ! */
+  align-items: center; /* Centre verticalement si hauteur définie genre */
+  width: 100%; /* Prend touuuute la largeur */
 }
 
 iframe {
   border: none;
-  width: 80%; /* Ajuste la largeur comme tu veux */
-  max-width: 800px; /* Empêche qu'il soit trop large */
+  width: 80%; /* Ajuste la largeur comme jveux */
+  max-width: 800px; /* Empêche qu'il soit trop gelaaaar */
   height: 200px; /* Ajuste la hauteur */
 }
 
