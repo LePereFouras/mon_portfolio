@@ -14,9 +14,9 @@ import {
   Server,
   ShieldCheck,
   ChevronRight,
+  ChevronDown,
   Send,
-  FileText,
-  MousePointer2
+  FileText
 } from 'lucide-react';
 import Chatbot from '@/components/Chatbot';
 
